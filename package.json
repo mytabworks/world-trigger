@@ -1,6 +1,6 @@
 {
   "name": "world-trigger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is use for Reactjs, React-Native, Vuejs, and any js framework out there, to trigger or dispatch registered callbacks on any component without using any context.",
   "main": "./cjs",
   "module": "./esm",
@@ -39,7 +39,7 @@
     "@babel/cli": "^7.12.13",
     "@babel/core": "^7.12.13",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
-    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-env": "^7.18.10",
     "@babel/preset-typescript": "^7.12.13",
     "@babel/register": "^7.12.13",
     "@babel/runtime": "^7.13.10",

@@ -4,7 +4,6 @@
     "outDir": "lib",
     "sourceMap": true,
     "allowJs": true,
-    "jsx": "react",
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
@@ -26,7 +25,7 @@
         }
       }
     ],
-    "module": "esnext",
+    "module": "commonjs",
     "noFallthroughCasesInSwitch": true,
     "noUnusedParameters": true,
     "strict": true,
