@@ -1,21 +1,21 @@
 {
   "name": "world-trigger",
-  "version": "1.0.1",
-  "description": "This is use for Reactjs, React-Native, Vuejs, and any js framework out there, to trigger or dispatch registered callbacks on any component without using any context.",
-  "main": "./cjs",
-  "module": "./esm",
-  "types": "./esm",
-  "files": [
-    "lib"
+  "version": "1.1.0",
+  "description": "A small, easy, blazingly fast and scalable state-management solution for react.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
   ],
   "scripts": {
-    "build": "node scripts/build.js",
-    "build-types": "yarn tsc -d --emitDeclarationOnly --outDir types",
-    "release": "rollout"
+    "build": "parcel build src/index.ts"
   },
-  "author": "mytabworks",
-  "license": "ISC",
-  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mytabworks/world-trigger.git"
+  },
   "keywords": [
     "world-trigger",
     "trigger",
@@ -30,28 +30,18 @@
     "javascript",
     "typescript"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mytabworks/world-trigger.git"
+  "author": "mytabworks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mytabworks/world-trigger/issues"
   },
+  "homepage": "https://github.com/mytabworks/world-trigger#readme",
   "devDependencies": {
-    "@4c/rollout": "^2.2.0",
-    "@babel/cli": "^7.12.13",
-    "@babel/core": "^7.12.13",
-    "@babel/plugin-proposal-class-properties": "^7.13.0",
-    "@babel/preset-env": "^7.18.10",
-    "@babel/preset-typescript": "^7.12.13",
-    "@babel/register": "^7.12.13",
-    "@babel/runtime": "^7.13.10",
-    "@types/node": "^14.14.28",
-    "babel-loader": "^8.2.2",
-    "chalk": "^4.1.0",
-    "cherry-pick": "^0.5.0",
-    "execa": "^5.0.0",
-    "fs-extra": "^9.1.0",
-    "typescript": "4.0.5"
-  },
-  "publishConfig": {
-    "directory": "lib"
+    "@babel/core": "^7.22.15",
+    "@parcel/packager-ts": "2.10.3",
+    "@parcel/transformer-typescript-types": "2.10.3",
+    "@types/node": "^20.10.5",
+    "parcel": "2.10.3",
+    "typescript": "^4.7.4"
   }
 }
