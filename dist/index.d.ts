@@ -7,6 +7,5 @@ export default class worldTrigger {
     static removeTrigger: <P = any>(name: string, callback: (data: P) => void) => void;
     static dispatchTrigger: <P = any>(name: string, data?: P) => void;
 }
-export default worldTrigger;
 
 //# sourceMappingURL=index.d.ts.map

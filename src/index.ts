@@ -24,10 +24,8 @@ export const dispatchTrigger = <P = any>(name: string, data?: P) => {
     }
 }
 
-class worldTrigger {
+export default class worldTrigger {
     static addTrigger = addTrigger
     static removeTrigger = removeTrigger
     static dispatchTrigger = dispatchTrigger
 }
-
-export default worldTrigger

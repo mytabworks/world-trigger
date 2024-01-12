@@ -30,12 +30,11 @@ const $091c930e13b125ed$export$fe531c183f379543 = (name, callback)=>{
 const $091c930e13b125ed$export$c1a102c7e046df1c = (name, data)=>{
     if (Array.isArray($091c930e13b125ed$var$worldTriggers[name])) $091c930e13b125ed$var$worldTriggers[name].forEach((callback)=>callback(data));
 };
-class $091c930e13b125ed$var$worldTrigger {
+class $091c930e13b125ed$export$2e2bcd8739ae039 {
     static #_ = this.addTrigger = $091c930e13b125ed$export$44e08e95db91f0b7;
     static #_1 = this.removeTrigger = $091c930e13b125ed$export$fe531c183f379543;
     static #_2 = this.dispatchTrigger = $091c930e13b125ed$export$c1a102c7e046df1c;
 }
-var $091c930e13b125ed$export$2e2bcd8739ae039 = $091c930e13b125ed$var$worldTrigger;
 
 
 //# sourceMappingURL=index.js.map
